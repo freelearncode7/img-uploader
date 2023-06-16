@@ -1,0 +1,38 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            justify-content: center;
+            display: flex;
+            place-items: center;
+            height: 100vh;
+        }
+        
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 2px solid white;
+        }
+        
+        form {
+            user-select: none;
+            justify-content: space-around;
+            place-items: center;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(8, 148, 195);
+            width: 400px;
+            height: 500px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px rgba(101, 100, 100, 0.236);
+            gap: 10%;
+        }
+        
+        input::-webkit-file-upload-button {
+            position: relative;
+            background-color: black;
+        }
